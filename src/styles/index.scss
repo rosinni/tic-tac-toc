@@ -11,3 +11,19 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.container {
+    background-color: grey;
+    width: 600px;
+    height: 600px;
+}
+// .row:not(:last-child){
+//     height: 200px;
+//     border-bottom: 2px solid white;}
+
+.col-sm-4, .col-lg-4{
+    height: 200px;
+    width: 200px;
+    // border-right: 2px solid white;
+    border: 2px solid white;
+}
